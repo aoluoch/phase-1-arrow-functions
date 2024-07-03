@@ -2,7 +2,7 @@ require ( './helpers.js' );
 
 describe("index.js", () => {
   it("has a function expression called divide", () => {
-    expect(divide).to.exist
+    expect(divide).to.exist 
   })
 
   it("divide divides 2000 by 100", () => {
